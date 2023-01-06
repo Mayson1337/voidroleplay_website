@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::-moz-selection {
+    background: #ff8000;
+  }
+  
+  ::selection {
+    background: #ff8000;
+  }
+  
+.wrapper #basic-image {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    z-index: -1;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.menu {
+    position: sticky;
+    padding: 25px 50px;
+    background-color: rgba(0,0,0,0.75);
+    
+}
+
+.menu #home {
+    border-radius: 4px;
+    border-width: 3px;
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu #home:hover {
+    text-decoration: underline #ff8000;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.menu #about-us {
+    border-radius: 4px;
+    border-width: 3px;
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu #about-us:hover {
+    cursor: pointer;
+    text-decoration: underline #ff8000;
+    transition: 0.3s ease-in-out;
+}
+
+.menu #rules {
+    border-radius: 4px;
+    border-width: 3px;
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.menu #rules:hover {
+    text-decoration: underline #ff8000;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.menu #donation {
+    border-radius: 4px;
+    border-width: 3px;
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.menu #donation:hover {
+    text-decoration: underline #ff8000;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.menu #information {
+    border-radius: 4px;
+    border-width: 3px;
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    color: white;
+    padding: 15px 15px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.menu #information:hover {
+    text-decoration: underline #ff8000;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+ 
+.pre {
+    padding: 30px;
+}
+
+.pre #preheader {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 20% 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.first {
+    padding: 30px;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.first #text1 {
+    text-align: center;
+    color:black;
+    font-size: 50px;
+    padding: 30px 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.first #text2 {
+    max-width: 40%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.second {
+    padding: 30px;
+    background-color: #dd571c;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.second #text1 {
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    padding: 30px 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.second #text2 {
+    padding-left: 60%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.third {
+    padding: 30px;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.third #text1 {
+    text-align: center;
+    color:black;
+    font-size: 50px;
+    padding: 30px 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.third #text2 {
+    max-width: 40%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+    padding: 15px;
+    background-color: #f5f5f5;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.impressum .first #text1 {
+    text-align: center;
+    color:black;
+    font-size: 50px;
+    padding: 30px 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.impressum .first #text2 {
+    text-align: right;
+    color:black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.impressum .second #text1 {
+    text-align: center;
+    padding: 30px 30px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer #discord {
+    color: #484848;
+    font-size: 25px;
+    padding: 5px 7.5px;
+}
+
+.footer #discord:hover {
+    color: #dd571c;
+    font-size: 25px;
+    padding: 5px 7.5px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer #tiktok {
+    color: #484848;
+    font-size: 25px;
+    padding: 5px 7.5px;
+}
+
+.footer #tiktok:hover {
+    color: #dd571c;
+    font-size: 25px;
+    padding: 5px 7.5px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer #youtube {
+    color: #484848;
+    font-size: 25px;
+    padding: 5px 7.5px;
+}
+
+.footer #youtube:hover {
+    color: #dd571c;
+    font-size: 25px;
+    padding: 5px 7.5px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer #teamspeak {
+    color: #484848;
+    font-size: 25px;
+    padding: 5px 7.5px;
+}
+
+.footer #teamspeak:hover {
+    color: #dd571c;
+    font-size: 25px;
+    padding: 5px 7.5px;
+    transition: 0.3s ease-in-out;
+}
+
+.footer #impressum {
+    color: #484848;
+    padding: 5px 7.5px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer #impressum:hover {
+    text-decoration: underline #dd571c;
+    transition: 0.3s ease-in-out;
+}
+
+.footer #disclaimer {
+    color: #484848;
+    font-family: 'Montserrat', sans-serif;
+}
